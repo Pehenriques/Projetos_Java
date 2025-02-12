@@ -10,6 +10,8 @@ public class Operadores {
         int divisao = a / b;
         int modulo = a % b;
 
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
         System.out.println("Soma: " + soma);
         System.out.println("Subtração: " + subtracao);
         System.out.println("Multiplicação: " + multiplicacao);
@@ -54,6 +56,18 @@ public class Operadores {
         int d = 10;
         d++; // d = d + 1
         d--; //d = d - 1
+
+        System.out.println("Unário: " + d);
+
+        // Operadores Ternários
+
+        int x, y;
+        x = 5;
+        y = 6;
+
+        String resultado = (x == y) ? "Verdadeiro" : "Falso";
+
+        System.out.println(resultado);
 
     }
 }
